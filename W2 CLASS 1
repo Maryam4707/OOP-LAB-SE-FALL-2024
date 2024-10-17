@@ -187,6 +187,31 @@ int main() {
 
     return 0;
 }
+               ************TASK4**********
+package maximum;
+public class Maximum{
+    int num1;
+    int num2;
+    int num3;
+    public static void main(String[] args){
+        Maximum m1=new Maximum();
+        m1.num1=20;
+        m1.num2=40;
+        m1.num3=60;
+        if(m1.num1>m1.num2 && m1.num1>m1.num3){
+            System.out.println("The greatest number is:"+m1.num1);
+        }
+        else if(m1.num2>m1.num1 && m1.num2>m1.num3){
+            System.out.println("The greatest number is:"+m1.num2);
+        }
+        else{
+            System.out.println("The greatest number is:"+m1.num3);
+        }
+        
+        
+    }
+}
+
                   
 
 
