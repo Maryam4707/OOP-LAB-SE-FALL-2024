@@ -1,0 +1,113 @@
+#############LAB#02###########
+                                *********TASK1*********
+package student;
+public class Student{
+    String name;
+    String city;
+    int age;
+    public static void main(String[] args){
+        Student s1=new Student();
+        Student s2=new Student();
+        s1.name="Maryam";
+        s2.city="Rawalpindi";
+        s1.age=19;
+        System.out.println(s1.name);
+                 System.out.println(s2.city);
+                          System.out.println(s1.age);
+    }
+}
+                   *********TASK2*********
+package area;
+public class Area {
+   
+    double length;
+    double width;
+    public Area(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+    public double calculateArea() {
+        return length * width;
+    }
+    public static void main(String[] args) {
+        Area areaObj = new Area(10, 5);
+        double area = areaObj.calculateArea();
+        System.out.println("Area: " + area);
+    }
+}
+                         *********TASK3*********
+package computer;
+public class Computer {
+    // Attributes
+    public String name;
+    public String config;
+    public int cost;
+    public String os;
+
+    // Method to display computer details
+    public void displayDetails() {
+        System.out.println("The company name is " + name);
+        System.out.println("The configuration is " + config);
+        System.out.println("Its Cost is " + cost);
+        System.out.println("Its operating System is " + os);
+    }
+
+    // Main function
+    public static void main(String[] args) {
+        // Create an object of the Computer class
+        Computer computerObj = new Computer();
+
+        // Initialize the attributes
+        computerObj.name = "Apple";
+        computerObj.config = "i5";
+        computerObj.cost = 50000;
+        computerObj.os = "IOS";
+
+        // Display the computer's details
+        computerObj.displayDetails();
+    }
+}
+                          ************TASK4**************
+package maximum;
+public class Maximum{
+    int num1;
+    int num2;
+    int num3;
+    public static void main(String[] args){
+        Maximum m1=new Maximum();
+        m1.num1=20;
+        m1.num2=40;
+        m1.num3=60;
+        if(m1.num1>m1.num2 && m1.num1>m1.num3){
+            System.out.println("The greatest number is:"+m1.num1);
+        }
+        else if(m1.num2>m1.num1 && m1.num2>m1.num3){
+            System.out.println("The greatest number is:"+m1.num2);
+        }
+        else{
+            System.out.println("The greatest number is:"+m1.num3);
+        }
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
