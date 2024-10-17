@@ -1,0 +1,80 @@
+         #########LAB3###########
+
+        ********TASK1************
+package pkgnew.pkg1;
+public class NEW1{
+        public static void main(String[] args){
+            String[] cars={"Mehran","Carolla","City"};
+            for(int i=0;i<3;i++){
+                System.out.println(cars[i]);
+                
+            }
+        }
+} 
+
+                     ********TASK2************
+package numbers;
+public class Numbers {
+    public static void main(String[] args){
+        int num1=2;
+        if(num1%2==0){
+            System.out.println("the Number is even");
+        }
+        else{
+        System.out.println("the Number is odd");
+    }
+    }
+}
+                ********TASK3************
+package whillloop;
+public class WhilLloop {
+
+    
+    public static void main(String[] args) {
+      int number=1;
+      while(number<=20){
+          if(number%2==0){
+              System.out.println(number);
+          }
+          number++;
+      }
+          
+          
+          } 
+}
+                     
+                ********TASK4************
+package newloop;
+
+public class NewLoop {
+
+    public static void main(String[] args) {
+        int rows = 6;
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<rows;j++){
+             System.out.print("* ");
+        }
+          System.out.println();
+    }
+               ********TASK5**********
+package factorial;
+
+public class Factorial {
+   public static void main(String[] args) {
+       int number =5;
+       int factorial =1;
+       while(number>0){
+           factorial*=number;
+           number--;
+       }
+    
+    System.out.println("the factorial is:" + factorial);
+   }
+}
+
+
+
+
+
+
+
